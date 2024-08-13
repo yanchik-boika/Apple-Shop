@@ -1,0 +1,155 @@
+/*!*h2{*!*/
+/*!*    color: black;*!*/
+/*!*}*!*/
+
+/*!*table{*!*/
+/*!*    color: black;*!*/
+/*!*}*!*/
+/*.cart-container {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*}*/
+
+/*.cart-items {*/
+/*    width: 60%;*/
+/*}*/
+
+/*.cart-item {*/
+/*    display: flex;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+/*.item-image {*/
+/*    width: 150px;*/
+/*    height: 150px;*/
+/*    object-fit: cover;*/
+/*}*/
+
+/*.item-details {*/
+/*    margin-left: 20px;*/
+/*}*/
+
+/*.cart-summary {*/
+/*    width: 30%;*/
+/*    border: 1px solid #ddd;*/
+/*    padding: 20px;*/
+/*}*/
+
+/*.checkout-button {*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    text-align: center;*/
+/*    padding: 10px;*/
+/*    background-color: #000;*/
+/*    color: #fff;*/
+/*    text-decoration: none;*/
+/*    margin-top: 20px;*/
+/*}*/
+/*.cart-container h3{*/
+/*    color: black;*/
+/*}*/
+/*.cart-container p{*/
+/*    color: black;*/
+/*}*/
+
+
+.cart-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-items {
+    width: 60%;
+}
+
+.cart-item {
+    display: flex;
+    margin-bottom: 3em;
+    margin-left: 10em;
+    margin-top: 5em;
+}
+
+.item-image {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+
+.item-details {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.delete-form {
+    margin-top: 10px;
+}
+
+.cart-summary {
+    height: 20em;
+    width: 35em;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-right: 5em;
+    margin-bottom: 10em;
+    margin-top: 5em;
+}
+
+.cart-summary h3 {
+    margin-top: 0;
+}
+
+.cart-summary p {
+    margin: 10px 0;
+}
+
+.cart-summary form {
+    margin-top: 10px;
+}
+
+.error{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.cart-summary .error{
+    color: red;
+}
+.checkout-button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.cart-container h3{
+    color: black;
+}
+.cart-container p{
+    color: black;
+}
+
+.promocode-Form input{
+    height: 3em;
+    width: 30em;
+    border: 1px solid black;
+
+}
+.promocode-Form button {
+    height: 3em;
+    width: 5em;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: white;
+}
+.promocode-Form{
+    margin-bottom: 1em;
+}
+
+
+.item-image {
+    margin-top: -40px;
+}

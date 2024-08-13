@@ -1,0 +1,85 @@
+p{
+    color: black;
+    margin-top: 1em;
+    font-size: 17px;
+}
+.addressForm{
+    height: auto;
+    width: 30em;
+    border: 1px solid black;
+    margin-top: 3em;
+    margin-left: 36%;
+    position: absolute;
+    justify-content: center;
+    display: flex;
+}
+
+.loginText{
+    font-family: AppleGothic;
+    font-size: 25px;
+    margin-top: 2em;
+    margin-left: 25%;
+}
+
+input{
+    border-radius: 5px;
+    font-size: 13px;
+    height: 3em;
+    width: 20em;
+}
+a{
+    color: black;
+    font-size: 17px;
+}
+button{
+    height: 3em;
+    width: 10em;
+    justify-content: center;
+    border: 1px solid black;
+    background: white;
+    border-radius: 5px;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+}
+/* login.css and register.css */
+
+.alert {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.form-control {
+    margin-bottom: 20px; /* Ensures space for error messages */
+}
+
+.alert-danger {
+    color: #d9534f;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.loginText, .registerText {
+    margin-bottom: 20px;
+}
+
+
+.form-block{
+    /*display: grid;*/
+    /*justify-content: space-between;*/
+}
+
+.form-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+label{
+    width: 85px;
+}
+
+

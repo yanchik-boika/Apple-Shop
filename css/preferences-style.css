@@ -1,0 +1,155 @@
+.Introduction-block{
+    background: white;
+    display: block;
+    width: 100%;
+    height: 7em;
+}
+.Introduction-block li{
+    color: black;
+
+}
+.Introduction-block h2{
+    font-family: AppleGothic;
+    color: black;
+    justify-content: center; /* выставляем текст по центру */
+    text-align: left;
+    margin-left: 3em;
+    padding-top: 25px;
+    font-size: 150%;
+}
+
+.Introduction-block h4{
+    font-family: AppleGothic;
+    color: black;
+    justify-content: center; /* выставляем текст по центру */
+    text-align: left;
+    font-size: 150%;
+}
+.Introduction-block p{
+    color: black;
+    font-family: AppleGothic;
+    justify-content: center; /* выставляем текст по центру */
+    text-align: left;
+    font-size: 17px;
+}
+table{
+    color: black;
+    border: white;
+}
+
+.Introduction-block b{
+    font-family: AppleGothic;
+    font-size: 15px;
+    margin-left: 3em;
+}
+
+.Introduction-block a{
+    color: black;
+    text-decoration: underline;
+}
+.fromDB{
+    font-family: AppleGothic;
+    font-size: 15px;
+    margin-left: 0;
+}
+.addressForm{
+    background: white;
+    color: black;
+    margin-left: 8em;
+    margin-top: -3.3em;
+}
+.addressForm h2{
+    background: white;
+    color: black;
+    margin-left: 8em;
+    text-align: left;
+}
+.addressForm label{
+    margin-left: 10em;
+}
+
+.addressForm input{
+    height: 2em;
+    width: 15em;
+    font-family: AppleGothic;
+    margin-bottom: 2em;
+}
+
+.addressForm button{
+    height: 3em;
+    width: 10em;
+    justify-content: center;
+    border: 1px solid black;
+    background: white;
+    border-radius: 5px;
+    margin-left: 12em;
+    margin-top: -1em;
+}
+
+
+.changePassword h2{
+    font-family: AppleGothic;
+    color: black;
+    justify-content: center; /* выставляем текст по центру */
+    text-align: left;
+    margin-left: 3em;
+    margin-top: 10em;
+    padding-top: 25px;
+    font-size: 150%;
+}
+
+
+.changePassword a{
+    color: black;
+}
+
+main{
+    background: white;
+}
+
+.alert {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.alert-danger {
+    color: #d9534f;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    padding: 10px;
+    border-radius: 5px;
+    width: 20em;
+    text-align: center;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.address-list{
+    color: black;
+    margin-top: 5em;
+    margin-left: -15em;
+}
+
+.addButton{
+    margin-top: 12.55em;
+    margin-left: -10em;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.deleteButton{
+    margin-top: 1.5em;
+    margin-left: 10em;
+    font-size: 18px;
+    text-decoration: none;
+}
+.footer{
+    margin-bottom: -5em;
+}
+
+/* Добавляем медиа-запросы для устройств с максимальной шириной экрана от 769px и больше */
+
+

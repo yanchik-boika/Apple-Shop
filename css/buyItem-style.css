@@ -1,0 +1,99 @@
+
+h2{
+    color: black;
+    margin-left: 5em;
+    margin-top: 3em;
+}
+
+label{
+    color: black;
+}
+
+#price-display{
+    color: black;
+}
+span{
+    color: black;
+}
+
+#slider-section {
+    float: left; /* Измените ширину по вашему усмотрению */
+    margin-top: 3em; /* Измените отступ сверху по вашему усмотрению */
+    margin-left: 6em;
+    margin-bottom: 10em;
+    position: relative;
+    z-index: 1;
+    height: 400px;
+    width: 500px;
+
+}
+
+.slider-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-container img{
+    height: auto;
+    width: 400px;
+    margin-left: 40px
+
+}
+
+.slider-image {
+    display: none;
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+.prev-btn {
+    left: 0;
+}
+
+.next-btn {
+    right: 0;
+}
+
+
+.dropdown{
+    z-index: 3;
+}
+
+
+form label {
+    margin-left: 5em;
+    margin-top: 10em;
+    font-size: 20px;
+}
+
+#price-display {
+    font-size: 20px;
+    margin-left: 35em;
+}
+
+button{
+    margin-left: 7em;
+    border: 1px solid   black;
+    height: 2em;
+    font-size: 15px;
+    border-radius: 5px;
+    background: white;
+}
+
+#order-form{
+    margin-top: 5em;
+    margin-bottom: 2em;
+}
+
