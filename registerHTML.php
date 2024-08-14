@@ -27,6 +27,7 @@ session_start();
             <input type="password" class="form-control" required placeholder="Password" name="pass"><br>
             <input type="password" class="form-control" required placeholder="Repeat password" name="repeatpass"><br>
             <input type="text" class="form-control" required placeholder="E-mail" name="email" value="<?= isset($_SESSION['email']) ? htmlspecialchars($_SESSION['email']) : '' ?>"><br>
+            <p>Already have an account? <a href="loginHTML.php">Login</a></p>
             <button type="submit" id="signUp">Sign Up</button><br>
         </form>
     </div>

@@ -79,6 +79,7 @@ session_start();
             <input type="text" class="form-control" placeholder="Login" required name="login" id="login" value="<?= isset($_SESSION['login']) ? htmlspecialchars($_SESSION['login']) : '' ?>"><br>
             <input type="password" class="form-control" required placeholder="Password" name="pass"><br>
             <p>Don't have an account? <a href="registerHTML.php">Sign up</a></p>
+            <p>Learn more about us <a href="index.php">Main</a></p>
             <button type="submit">Login</button><br>
         </form>
     </div>
