@@ -121,7 +121,7 @@ $mysqli->close();
     </div>
 </header>
 <main>
-    <h2>Shopping Cart</h2>
+    <h2>Shopping cart:</h2>
     <div class="cart-container">
         <div class="cart-items">
             <?php if (empty($orders)): ?>
@@ -157,9 +157,8 @@ $mysqli->close();
             <?php endif; ?>
             <h3>Cart Summary</h3>
             <p>Subtotal: $<?= $totalCost ?></p>
-            <p>Free Shipping Promo: -$9.99</p>
             <p>Discount: $<?= $discount ?></p>
-            <p>Total Cost: $<?= $totalCostWithPromo -9.99?></p>
+            <p>Total Cost: $<?= $totalCostWithPromo?></p>
 
             <a href="checkout.php" class="checkout-button">Checkout</a>
         </div>
