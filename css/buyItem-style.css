@@ -1,8 +1,9 @@
 
 h2{
     color: black;
-    margin-left: 5em;
+    margin-left: 7em;
     margin-top: 3em;
+    margin-bottom: 1em;
 }
 
 label{
@@ -18,8 +19,9 @@ span{
 
 #slider-section {
     float: left; /* Измените ширину по вашему усмотрению */
-    margin-top: 3em; /* Измените отступ сверху по вашему усмотрению */
-    margin-left: 6em;
+    /*margin-top: 3em; !* Измените отступ сверху по вашему усмотрению *!*/
+    margin-top: -1em;
+    margin-left: 9em;
     margin-bottom: 10em;
     position: relative;
     z-index: 1;
@@ -52,20 +54,27 @@ span{
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     border: none;
-    padding: 10px;
+    padding: 7px;
     cursor: pointer;
     z-index: 2;
 }
 
 
+/*.prev-btn {*/
+/*    left: 0;*/
+/*}*/
+
+/*.next-btn {*/
+/*    right: 0;*/
+/*}*/
+
 .prev-btn {
-    left: 0;
+    left: -7em;
 }
 
 .next-btn {
-    right: 0;
+    right: 1em;
 }
-
 
 .dropdown{
     z-index: 3;
@@ -80,7 +89,7 @@ form label {
 
 #price-display {
     font-size: 20px;
-    margin-left: 35em;
+    margin-left: 37.3em;
 }
 
 button{

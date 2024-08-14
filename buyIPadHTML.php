@@ -139,16 +139,16 @@ $stmt->close();
                 <?php foreach ($storages as $storage): ?>
                     <option value="<?= htmlspecialchars($storage['storage']) ?>"><?= htmlspecialchars($storage['storage']) ?></option>
                 <?php endforeach; ?>
-            </select><br>
+            </select><br><br>
 
             <label for="color">Choose the color of your future iPad:</label>
             <select name="color" id="color" required>
                 <?php foreach ($colors as $color): ?>
                     <option value="<?= htmlspecialchars($color['color']) ?>"><?= htmlspecialchars($color['color']) ?></option>
                 <?php endforeach; ?>
-            </select><br>
+            </select><br><br>
 
-            <div id="price-display">Price: $<span id="price"></span></div>
+            <div id="price-display">Price: $<span id="price"></span></div><br>
 
             <button type="submit">Add to shopping</button>
         </form>

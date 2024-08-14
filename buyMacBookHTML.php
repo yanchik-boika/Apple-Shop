@@ -131,7 +131,6 @@ $stmt->close();
 <main>
     <h2>Your macBook: <?= htmlspecialchars($macBook['name']) ?></h2>
     <section id="slider-section">
-        <h6>Slider Section</h6>
         <div class="slider-container">
             <!-- Slider images will be inserted here -->
         </div>
@@ -147,26 +146,26 @@ $stmt->close();
             <?php foreach ($chips as $chip): ?>
                 <option value="<?= htmlspecialchars($chip['chip']) ?>"><?= htmlspecialchars($chip['chip']) ?></option>
             <?php endforeach; ?>
-        </select><br>
+        </select><br><br>
 
         <label for="ram">Choose the RAM of your future macBook:</label>
         <select name="ram" id="ram" required>
             <!-- Options will be populated dynamically -->
-        </select><br>
+        </select><br><br>
 
         <label for="storage">Choose the storage of your future macBook:</label>
         <select name="storage" id="storage" required>
             <!-- Options will be populated dynamically -->
-        </select><br>
+        </select><br><br>
 
         <label for="color">Choose the color of your future macBook:</label>
         <select name="color" id="color" required>
             <?php foreach ($colors as $color): ?>
                 <option value="<?= htmlspecialchars($color['color']) ?>"><?= htmlspecialchars($color['color']) ?></option>
             <?php endforeach; ?>
-        </select><br>
+        </select><br><br>
 
-        <div id="price-display">Price: $<span id="price"></span></div>
+        <div id="price-display">Price: $<span id="price"></span></div><br>
 
         <button type="submit">Add to shopping</button>
     </form>
