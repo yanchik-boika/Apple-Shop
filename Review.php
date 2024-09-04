@@ -69,7 +69,7 @@ include 'review-main.php';
                             <li><a href="iPadShop.php">iPad</a></li>
                         </ul>
                     </li>
-                    <li><a class="login" href="#">Hello, <?= htmlspecialchars($_COOKIE['user'])?></a>
+                    <li><a class="login" href="#">Hello, <?= htmlspecialchars($_COOKIE['user']) ?></a>
                         <ul class="dropdown">
                             <li><a href="logout.php" class="logout">Exit</a></li>
                             <li><a href="Preferences.php" class="preferences">Preferences</a></li>
@@ -82,67 +82,27 @@ include 'review-main.php';
     </div>
 </header>
 <div class="container">
-<!--    <main>-->
-<!--        <section id="slider-section">-->
-<!--            <h6>Slider Section</h6>-->
-<!--            <div class="slider-container">-->
-<!--                <div class="slider-image" style="display: none;">-->
-<!--                    <img src="image/slider/1.webp" alt="Image 1">-->
-<!--                </div>-->
-<!--                <div class="slider-image">-->
-<!--                    <img src="image/slider/2.webp" alt="Image 2">-->
-<!--                </div>-->
-<!--                <div class="slider-image">-->
-<!--                    <img src="image/slider/3.2.jpeg" alt="Image 3">-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </section>-->
-<!--        <section id="form-section">-->
-<!--            <h2>Leave your experience of using Apple device</h2>-->
-<!--            <form id="my-form" method="POST" action="Review.php">-->
-<!--                <label for="name">Name:</label>-->
-<!--                <input type="text" id="name" name="name" pattern="^[a-zA-ZąćęłńóśżźĄĆĘŁŃÓŚŻŹ\s-]+$" maxlength="20" required>-->
-<!--                <label for="email">Email:</label>-->
-<!--                <input type="email" id="email" name="email" maxlength="30" size="30"-->
-<!--                       pattern="^[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>-->
-<!--                <label for="message">Review:</label>-->
-<!--                <textarea id="message" name="message" required maxlength="250"></textarea>-->
-<!---->
-<!--                <h4>What do you use Apple for?</h4>-->
-<!--                <div class="checkbox-container">-->
-<!--                    <input type="checkbox" name="business" id="business">-->
-<!--                    <label for="business">Business</label>-->
-<!--                    <input type="checkbox" name="study" id="study">-->
-<!--                    <label for="study">Study</label>-->
-<!--                    <input type="checkbox" name="development" id="development">-->
-<!--                    <label for="development">Development</label>-->
-<!--                </div>-->
-<!---->
-<!--                <button type="submit">Send</button>-->
-<!--                <button type="reset">Undo</button>-->
-<!--            </form>-->
-<!--            <div id="form-error"></div>-->
-<!--        </section>-->
-<!--        <section id="data-section">-->
-<!--            <h2>Reviews:</h2>-->
-<!--            <ul id="data-list">-->
-<!--                --><?php //foreach ($reviews as $review): ?>
-<!--                    <li>-->
-<!--                        <strong>Name:</strong> --><?php //= htmlspecialchars($review['name']) ?><!--<br>-->
-<!--                        <strong>Email:</strong> --><?php //= htmlspecialchars($review['email']) ?><!--<br>-->
-<!--                        <strong>Review:</strong> --><?php //= htmlspecialchars($review['review']) ?><!--<br>-->
-<!--                    </li>-->
-<!--                --><?php //endforeach; ?>
-<!--            </ul>-->
-<!--        </section>-->
-<!---->
-<!--    </main>-->
     <main>
+        <section id="slider-section">
+            <h6>Slider Section</h6>
+            <div class="slider-container">
+                <div class="slider-image" style="display: none;">
+                    <img src="image/slider/1.webp" alt="Image 1">
+                </div>
+                <div class="slider-image">
+                    <img src="image/slider/2.webp" alt="Image 2">
+                </div>
+                <div class="slider-image">
+                    <img src="image/slider/3.2.jpeg" alt="Image 3">
+                </div>
+            </div>
+        </section>
         <section id="form-section">
             <h2>Leave your experience of using Apple device</h2>
             <form id="my-form" method="POST" action="review.php">
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" pattern="^[a-zA-ZąćęłńóśżźĄĆĘŁŃÓŚŻŹ\s-]+$" maxlength="20" required>
+                <input type="text" id="name" name="name" pattern="^[a-zA-ZąćęłńóśżźĄĆĘŁŃÓŚŻŹ\s-]+$" maxlength="20"
+                       required>
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" maxlength="30" size="30"
                        pattern="^[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
@@ -193,7 +153,7 @@ include 'review-main.php';
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
-        $(document).ready(function(){
+        $(document).ready(function () {
             var currentIndex = 0;
             var slides = $(".slider-image");
             var totalSlides = slides.length;
@@ -216,11 +176,11 @@ include 'review-main.php';
 
             $(".slider-container").append('<button class="prev-btn">&lt;</button><button class="next-btn">&gt;</button>');
 
-            $(".prev-btn").on("click", function() {
+            $(".prev-btn").on("click", function () {
                 prevSlide();
             });
 
-            $(".next-btn").on("click", function() {
+            $(".next-btn").on("click", function () {
                 nextSlide();
             });
         });
