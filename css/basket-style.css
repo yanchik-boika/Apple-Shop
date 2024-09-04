@@ -36,10 +36,15 @@ h2{
 .delete-form {
     margin-top: 10px;
 }
+.cart-items p{
+    margin-left: 9.5em;
+    margin-top: 2em;
+    font-size: 18px;
+}
 
 .cart-summary {
     height: 20em;
-    width: 35em;
+    width: 28em;
     padding: 20px;
     border: 1px solid #ddd;
     margin-right: 5em;

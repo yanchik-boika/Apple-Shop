@@ -31,7 +31,7 @@ $stmt->close();
 $mysqli->close();
 
 // Перенаправление на страницу подтверждения заказа
-header("Location: orderConfirmation.php");
+header("Location: loggedIndex.php");
 exit();
 ?>
 
